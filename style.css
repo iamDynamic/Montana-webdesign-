@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    color: #fff;
+    background-image: url("/image/background/background\(1\).jpg");
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+nav{
+    display: flex;
+    padding: 20px;
+}
+nav .start{
+    display: flex;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+nav .start a{
+    color: #fff;
+    font-weight: bolder;
+    font-size: 20px;
+    margin-left: 20px;
+}
+nav .start .underline{
+    text-decoration: underline;
+}
+nav .container{
+    display: flex;
+}
+nav .blog{
+    display: grid;
+    margin-left: 20px;
+}
+nav .blog .upper{
+    display: flex;
+    cursor: pointer;
+}
+nav .blog footer{
+    display: grid;
+}
+nav .blog footer button{
+    cursor: pointer;
+    background-color: #fff;
+    border: solid 2px #000;
+}
+nav .blog footer .btn2{
+    margin-top: 5px;
+}
+nav .middle{
+    margin-left: 200px;
+}
+nav .end{
+    margin-left: 100px;
+    display: flex;
+    margin-top: 12px;
+}
+.end a{
+    color: #fff;
+    font-weight: bolder;
+    margin-top: 6px;
+    margin-left: 20px;
+   font-size: 20px;    
+}
+.end .btn{
+    background-color: #415a77;
+    padding: 10px;
+    cursor: pointer;
+    margin-left: 20px;
+    height: fit-content;
+}
+article{
+    display: flex;
+    margin-top: 160px;
+    justify-content: space-around;
+}
+article .start button{
+    height: 50px;
+    cursor: pointer;
+    width: 50px;
+    font-weight: bolder;
+    border-radius: 50%;
+    background-color: #fff;
+    color: #415a77;
+}
+article .middle h1{
+    font-size: 80px;
+}
+article .middle p{
+    text-align: center;
+    font-size: 40px;
+}
+article .end{
+    display: flex;
+}
+article .end button{
+    background-color: #fff;
+    color: #415a77;
+    height: 50px;
+    font-weight: bolder;
+    cursor: pointer;
+    width: 50px;
+    border-radius: 50%;
+}
+article .start,article .end{
+    margin-top: 50px;
+}

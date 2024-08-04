@@ -78,7 +78,7 @@ nav .end{
 }
 article{
     display: flex;
-    margin-top: 160px;
+    margin-top: 300px;
     justify-content: space-around;
 }
 article .start button{
